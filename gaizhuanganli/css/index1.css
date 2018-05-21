@@ -1,0 +1,316 @@
+header{
+    width: 100%;
+    height: 120px;
+}
+header .main{
+    width: 1200px;
+    height: 100%;
+    /*background: red;*/
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .main .left{
+    width: 320px;
+    height: 50px;
+    /*background: blue;*/
+}
+header .main .right{
+    width: 527px;
+    height: 50px;
+    /*background: blue;*/
+}
+header .main .left .item1{
+    width: 204px;
+    height: 50px;
+    float: left;
+    /*background: red;*/
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #f13a3a;
+}
+header .main .left .item2{
+    width: 102px;
+    height: 50px;
+    float: right;
+    /*background: yellow;*/
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #cccccc;
+}
+header .main .right a{
+    width: 84px;
+    height: 50px;
+    /*background: yellow;*/
+    display: block;
+    float: left;
+    margin-right: 26.75px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+header .main .right .i0{
+    color: red;
+}
+header .main .right .i1{
+    margin-right: 0;
+}
+
+.Picture{
+    width: 100%;
+    height: 300px;
+}
+.Picture .main{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: red;
+}
+.Picture .main img{
+    width: 1200px;
+    height: 300px;
+}
+
+.dangqianweizhi{
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+}
+.dangqianweizhi .main{
+    width: 1190px;
+    height: 20px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.gaizhuanganli{
+    width: 100%;
+    height: 927px;
+    margin-top: 15px;
+}
+.gaizhuanganli .main{
+    width: 1200px;
+    height: 378px;
+    margin: 0 auto;
+}
+.gaizhuanganli .main .top{
+    width: 1200px;
+    height: 48px;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    /*background: red;*/
+}
+.gaizhuanganli .main .top .left{
+    width: 100px;
+    height: 48px;
+    /*background: yellow;*/
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+}
+.gaizhuanganli .main .bottom{
+    width: 1200px;
+    height: 879px;
+    /*background: red;*/
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.gaizhuanganli .main .bottom .box{
+    width: 380px;
+    height: 263px;
+    /*background: blue;*/
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.gaizhuanganli .main .bottom .box:nth-child(3){
+    margin-right: 0;
+}
+.gaizhuanganli .main .bottom .box:nth-child(6){
+    margin-right: 0;
+}
+.gaizhuanganli .main .bottom .box:nth-child(9){
+    margin-right: 0;
+}
+.gaizhuanganli .main .bottom .box img{
+    width: 380px;
+    height: 220px;
+    /*background: green;*/
+    display: block;
+}
+.gaizhuanganli .main .bottom .box .item{
+    width: 380px;
+    height: 43px;
+    /*background: yellow;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 43px;
+}
+
+.ye{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.ye .main{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    /*background: red;*/
+    display: flex;
+}
+.ye .main .left{
+    width: 66px;
+    height: 40px;
+    /*background: blue;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.ye .main .nav{
+    width: 34px;
+    height: 40px;
+    /*background: yellow;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.ye .main .right{
+    width: 66px;
+    height: 40px;
+    /*background: blue;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.shang{
+    width: 100%;
+    height: 200px;
+    background: #2b2b2b;
+    margin-top: 40px;
+    border-bottom: 1px solid #423e3f;
+    box-sizing: border-box;
+}
+.shang .main{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    /*background: red;*/
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.shang .main .left{
+    width: 600px;
+    height: 119px;
+    /*background: blue;*/
+    float: left;
+}
+.shang .main .left .box{
+    width: 117px;
+    height: 119px;
+    /*background: yellow;*/
+    float: left;
+    margin-right: 90px;
+}
+.shang .main .left .box .i1{
+    width: 117px;
+    height: 47px;
+    display: block;
+    /*background: green;*/
+    color: #fff;
+    font-size: 16px;
+    line-height: 47px;
+}
+.shang .main .left .box .i2{
+    width: 117px;
+    height: 36px;
+    display: block;
+    color: #b2b2b2;
+    font-size: 14px;
+    line-height: 36px;
+}
+.shang .main .left .box1{
+    margin-right: 69px;
+}
+.shang .main .right{
+    width: 330px;
+    height: 119px;
+    /*background: blue;*/
+    float: right;
+}
+.shang .main .right .item{
+    width: 110px;
+    height: 110px;
+    background: white;
+    margin-right: 20px;
+    float: left;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+.shang .main .right .item img{
+    width: 100px;
+    height: 100px;
+}
+.shang .main .right .item1{
+    width: 200px;
+    height: 110px;
+    /*background: red;*/
+    float: left;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+.shang .main .right .item1 .it1{
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    /*background: blue;*/
+}
+.shang .main .right .item1 .it2{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: red;
+    line-height: 40px;
+    /*background: yellow;*/
+}
+
+.xia{
+    width: 100%;
+    height: 142px;
+    background: #2b2b2b;
+}
+.xia .main{
+    width: 1200px;
+    height: 142px;
+    /*background: red;*/
+    margin: 0 auto;
+    padding: 49px 0;
+    box-sizing: border-box;
+}
+.xia .main .top{
+    width: 1200px;
+    height: 22px;
+    /*background: blue;*/
+    font-size: 14px;
+    color: #878686;
+    text-align: center;
+    line-height: 22px;
+}
+.xia .main .bottom{
+    width: 1200px;
+    height: 22px;
+    /*background: yellow;*/
+    font-size: 14px;
+    color: #878686;
+    text-align: center;
+    line-height: 22px;
+}

@@ -1,0 +1,525 @@
+header{
+    width: 100%;
+    height: 120px;
+}
+header .main{
+    width: 1200px;
+    height: 100%;
+    /*background: red;*/
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .main .left{
+    width: 320px;
+    height: 50px;
+    /*background: blue;*/
+}
+header .main .left .item1{
+    width: 204px;
+    height: 50px;
+    float: left;
+    /*background: red;*/
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #f13a3a;
+}
+header .main .left .item2{
+    width: 102px;
+    height: 50px;
+    float: right;
+    /*background: yellow;*/
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #cccccc;
+}
+header .main .right{
+    width: 527px;
+    height: 50px;
+    /*background: blue;*/
+}
+header .main .right a{
+    width: 84px;
+    height: 50px;
+    /*background: yellow;*/
+    display: block;
+    float: left;
+    margin-right: 26.75px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+header .main .right .i0{
+    color: red;
+}
+header .main .right .i1{
+    margin-right: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 450px;
+}
+.banner .main{
+    width: 1200px;
+    height: 450px;
+    /*background: blue;*/
+    margin: 0 auto 0 auto;
+}
+.banner .main ul{
+    width: 1200px;
+    height: 450px;
+    position: relative;
+}
+.banner .main ul .tu{
+    width: 1200px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.banner .main ul .tu img{
+    width: 1200px;
+    height: 450px;
+}
+.banner .main ul .leftBtn{
+    width: 42px;
+    height: 68px;
+    background-image: url('../img/banner/icon-slides.png');
+    background-position: -84px;
+    position: absolute;
+    top: 191px;
+    left: 0;
+    z-index: 9999;
+}
+.banner .main ul .leftBtn:hover{
+    background-image: url('../img/banner/icon-slides.png');
+    background-position: 0px;
+}
+.banner .main ul .rightBtn{
+    width: 42px;
+    height: 68px;
+    background-image: url('../img/banner/icon-slides.png');
+    background-position: -124px;
+    position: absolute;
+    top: 191px;
+    right: 0;
+    z-index: 9999;
+}
+.banner .main ul .rightBtn:hover{
+    background-image: url('../img/banner/icon-slides.png');
+    background-position: -207px;
+}
+.banner .main ul .bottomDot{
+    width: 90px;
+    height: 10px;
+    /* background: red; */
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    z-index: 9999;
+}
+.banner .main ul .bottomDot .dot{
+    width: 6px;
+    height: 6px;
+    background: #848484;
+    /* 圆角：所在圆的半径值 */
+    border-radius: 50%;
+    border: 2px solid #a8a8a8;
+    float: left;
+    margin-right: 10px;
+}
+.banner .main ul .bottomDot .dot:last-child{
+    margin-right: 0;
+}
+.banner .main ul .bottomDot .dot.hot{
+    background: red;
+}
+
+.bannerxia{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+.bannerxia .main{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.bannerxia .main .box{
+    width: 290px;
+    height: 120px;
+    background: #f5f5f5;
+    float: left;
+    margin-right: 13px;
+    margin-top: 50px;
+}
+.bannerxia .main .box a{
+    display: block;
+    width: 290px;
+    height: 120px;
+}
+.bannerxia .main .box a img{
+    width: 130px;
+    height: 120px;
+    display: block;
+    float: left;
+    /*background: yellow;*/
+}
+.bannerxia .main .box a .i1{
+    width: 140px;
+    height: 120px;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.bannerxia .main .box a .i1 .top{
+    width: 140px;
+    height: 30px;
+    font-size: 18px;
+    color: red;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.bannerxia .main .box a .i1 .bottom{
+    width: 140px;
+    height: 60px;
+    /*background: pink;*/
+    font-size: 13px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+.bannerxia .main .box1{
+    width: 290px;
+    height: 120px;
+    /*background: blue;*/
+    float: right;
+    margin-right: 0;
+}
+
+.gaizhuanganli{
+    width: 100%;
+    height: 49px;
+    margin-top: 10px;
+}
+.gaizhuanganli .main{
+    width: 1200px;
+    height: 49px;
+    margin: 0 auto;
+    /*background: yellow;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+}
+.gaizhuanganli .main .left{
+    width: 80px;
+    height: 49px;
+    /*background: red;*/
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 49px;
+}
+.gaizhuanganli .main .right{
+    width: 60px;
+    height: 49px;
+    /*background: red;*/
+    font-size: 16px;
+    color: #d4b399;
+    line-height: 49px;
+    text-align: center;
+}
+
+.gaizhuangxia{
+    width: 100%;
+    height: 596px;
+    /*background: blue;*/
+}
+.gaizhuangxia .main{
+    width: 1200px;
+    height: 596px;
+    /*background: pink;*/
+    margin: 0 auto;
+}
+.gaizhuangxia .main .box{
+    width: 380px;
+    height: 263px;
+    margin-top: 35px;
+    margin-right: 30px;
+    /*background: black;*/
+    float: left;
+    transition: all 0.2s;
+}
+.gaizhuangxia .main .box:hover{
+    transform: translate(0, -5px);
+    box-shadow: 0 5px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.gaizhuangxia .main .box img{
+    width: 380px;
+    height: 263px;
+}
+.gaizhuangxia .main .box1{
+    margin-right: 0;
+}
+
+.xinwenzixun{
+    width: 100%;
+    height: 317px;
+    margin-top: 40px;
+}
+.xinwenzixun .main{
+    width: 1200px;
+    height: 317px;
+    margin: 0 auto;
+}
+.xinwenzixun .main .left{
+    width: 590px;
+    height: 317px;
+    /*background: red;*/
+    float: left;
+}
+.xinwenzixun .main .left .top{
+    width: 590px;
+    height: 49px;
+    /*background: yellow;*/
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+}
+.xinwenzixun .main .left .top .i1{
+    width: 80px;
+    height: 49px;
+    font-size: 20px;
+    line-height: 49px;
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+    float: left;
+}
+.xinwenzixun .main .left .top .i2{
+    width: 60px;
+    height: 49px;
+    float: right;
+    font-size: 16px;
+    color: #d4b399;
+    line-height: 49px;
+    text-align: center;
+}
+.xinwenzixun .main .left .bottom{
+    width: 590px;
+    height: 268px;
+    /*background: green;*/
+    padding-bottom: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.xinwenzixun .main .left .bottom .box{
+    width: 590px;
+    height: 23px;
+    margin-bottom: 14px;
+    /*background: red;*/
+}
+.xinwenzixun .main .left .bottom .box .it1{
+    width: 23px;
+    height: 23px;
+    /*background: yellow;*/
+    float: left;
+    padding: 8px 8px;
+    box-sizing: border-box;
+}
+.xinwenzixun .main .left .bottom .box .it1 .item{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+}
+.xinwenzixun .main .left .bottom .box .it2{
+    width: 489px;
+    height: 23px;
+    /*background: blue;*/
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 23px;
+}
+.xinwenzixun .main .left .bottom .box .it3{
+    width: 78px;
+    height: 23px;
+    /*background: gray;*/
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 23px;
+}
+.xinwenzixun .main .left .bottom .box1{
+    margin-bottom: 0;
+}
+.xinwenzixun .main .right{
+    width: 600px;
+    height: 317px;
+    /*background: blue;*/
+    float: right;
+}
+.xinwenzixun .main .right .top{
+    width: 600px;
+    height: 49px;
+    /*background: yellow;*/
+}
+.xinwenzixun .main .right .top .i1{
+    width: 80px;
+    height: 49px;
+    font-size: 20px;
+    line-height: 49px;
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+    float: left;
+}
+.xinwenzixun .main .right .top .i2{
+    width: 60px;
+    height: 49px;
+    float: right;
+    font-size: 16px;
+    color: #d4b399;
+    line-height: 49px;
+    text-align: center;
+}
+.xinwenzixun .main .right .bottom{
+    width: 600px;
+    height: 268px;
+    /*background: green;*/
+    padding: 4px 10px;
+    box-sizing: border-box;
+    display: block;
+}
+.xinwenzixun .main .right .bottom img{
+    width: 580px;
+    height: 260px;
+}
+
+.shang{
+    width: 100%;
+    height: 200px;
+    background: #2b2b2b;
+    margin-top: 25px;
+    border-bottom: 1px solid #423e3f;
+    box-sizing: border-box;
+}
+.shang .main{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    /*background: red;*/
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.shang .main .left{
+    width: 600px;
+    height: 119px;
+    /*background: blue;*/
+    float: left;
+}
+.shang .main .left .box{
+    width: 117px;
+    height: 119px;
+    /*background: yellow;*/
+    float: left;
+    margin-right: 90px;
+}
+.shang .main .left .box .i1{
+    width: 117px;
+    height: 47px;
+    display: block;
+    /*background: green;*/
+    color: #fff;
+    font-size: 16px;
+    line-height: 47px;
+}
+.shang .main .left .box .i2{
+    width: 117px;
+    height: 36px;
+    display: block;
+    color: #b2b2b2;
+    font-size: 14px;
+    line-height: 36px;
+}
+.shang .main .left .box1{
+    margin-right: 69px;
+}
+.shang .main .right{
+    width: 330px;
+    height: 119px;
+    /*background: blue;*/
+    float: right;
+}
+.shang .main .right .item{
+    width: 110px;
+    height: 110px;
+    background: white;
+    margin-right: 20px;
+    float: left;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+.shang .main .right .item img{
+    width: 100px;
+    height: 100px;
+}
+.shang .main .right .item1{
+    width: 200px;
+    height: 110px;
+    /*background: red;*/
+    float: left;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+.shang .main .right .item1 .it1{
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    /*background: blue;*/
+}
+.shang .main .right .item1 .it2{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: red;
+    line-height: 40px;
+    /*background: yellow;*/
+}
+
+.xia{
+    width: 100%;
+    height: 142px;
+    background: #2b2b2b;
+}
+.xia .main{
+    width: 1200px;
+    height: 142px;
+    /*background: red;*/
+    margin: 0 auto;
+    padding: 49px 0;
+    box-sizing: border-box;
+}
+.xia .main .top{
+    width: 1200px;
+    height: 22px;
+    /*background: blue;*/
+    font-size: 14px;
+    color: #878686;
+    text-align: center;
+    line-height: 22px;
+}
+.xia .main .bottom{
+    width: 1200px;
+    height: 22px;
+    /*background: yellow;*/
+    font-size: 14px;
+    color: #878686;
+    text-align: center;
+    line-height: 22px;
+}
